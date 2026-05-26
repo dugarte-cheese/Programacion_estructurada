@@ -1,1 +1,24 @@
 
+Algoritmo PaseoColegio
+
+Definir permiso, cuota Como Entero
+
+Escribir "¿Trajiste el permiso? (1 = Sí, 2 = No)"
+Leer permiso
+
+Si permiso == 1 Entonces
+    
+    Escribir "¿Ya pagaste la cuota? (1 = Sí, 2 = No)"
+    Leer cuota
+    
+    Si cuota == 1 Entonces
+        Escribir "¡Todo listo! Sube al bus."
+    Sino
+        Escribir "Tienes permiso, pero no has pagado. No puedes subir."
+    FinSi
+
+Sino
+    Escribir "Sin la firma de tu representante no viajas. Te quedas en el colegio."
+FinSi
+
+FinAlgoritmo
